@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #45acf6;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-rick{
+    margin-left: 83rem;
+    margin-top: -4rem;
+}
+
+.navi{
+    position: absolute;
+    top: 5px;
+}
+.navi ul{
+ display: flex;
+margin-left:33rem;
+padding: 40px;
+list-style: none;
+}
+.navi a{
+ 
+    text-align: center;
+    color: #0b0b0b;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;
+    position: relative;
+}
+.navi a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ddff02;
+    letter-spacing: .1rem;
+}
+
+.banner-rick img{
+    width: 94.9rem;
+    
+}
+.menu-list{
+    display:block;
+margin-left: 30px;
+list-style: none;
+}
+.camisas-1 img{
+    width: 330px;
+}
+.produto-1{
+position: absolute; /* Adicionado para referência do botão */
+left:  30px;
+top: 416.6px;
+width: 300px; /* Defina um tamanho para o produto */
+height: 400px;
+  }
+  
+.btn{
+  position: absolute;
+  left: 160px; /* Centraliza horizontalmente */
+  top: 370px; /* Centraliza verticalmente */
+  transform: translate(-50%, -50%); /* Ajusta o centro */
+  font-size: 20px;
+  padding: 11px;
+  width: 200px;
+  border: 2px solid transparent;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.camisas-1{
+    list-style: none;
+}
+.artcam{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transition: 2s;
+}
+.artcam:hover{
+  opacity: 1;
+}
+.produto-1:hover .btn{
+opacity: 1;
+}
+
+.camisas-2 img{
+    width: 330px;
+}
+.produto-2{
+    margin-left: 50px;
+    position: absolute; /* Adicionado para referência do botão */
+    top: 416.6px;
+    left: 370px;
+    width: 300px; /* Defina um tamanho para o produto */
+    height: 400px;
+}
+.btn2{
+    position: absolute;
+    left: 160px; /* Centraliza horizontalmente */
+    top: 370px;  /* Centraliza verticalmente */
+    transform: translate(-50%, -50%); /* Ajusta o centro */
+    font-size: 20px;
+    padding: 11px;
+    width: 200px;
+    border: 2px solid transparent;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .produto-2:hover .btn2{
+    opacity: 1;
+    }
+    .camisas-2{
+        list-style: none;
+    }
+    .artcam-2{
+        position: absolute;
+        top: 0px;
+        opacity: 0;
+        transition: 2s;
+    }
+    .artcam-2:hover{
+      opacity: 1;
+    }
+
+  .camisas-3 img{
+        width: 330px;
+    }
+
+    .produto-3{
+            margin-left: 50px;
+        position: absolute; /* Adicionado para referência do botão */
+        top: 416.6px;
+        left: 740px;
+        width: 300px; /* Defina um tamanho para o produto */
+        height: 400px;
+    }
+    .btn3{
+        position: absolute;
+        left: 160px; 
+        top: 370px;
+        transform: translate(-50%, -50%); /* Ajusta o centro */
+       font-size: 20px;
+        padding: 11px;
+        width: 200px;
+        border: 2px solid transparent;
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+      }
+      .produto-3:hover .btn3{
+        opacity: 1;
+        }
+        .camisas-3{
+            list-style: none;
+        }
+        .artcam-3{
+            position: absolute;
+            top: 0px;
+            opacity: 0;
+            transition: 2s;
+        }
+        .artcam-3:hover{
+          opacity: 1;
+        }
+
+
+        .camisas-4 img{
+            width: 330px;
+        }
+        .produto-4{
+            margin-left: 50px;
+        position: absolute; /* Adicionado para referência do botão */
+        top: 416.6px;
+        left:1112px;
+        width: 300px; /* Defina um tamanho para o produto */
+        height: 400px;
+    }
+    .btn4{
+        position: absolute;
+        left: 160px; 
+        top: 370px;
+        transform: translate(-50%, -50%); /* Ajusta o centro */
+       font-size: 20px;
+        padding: 11px;
+        width: 200px;
+        border: 2px solid transparent;
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+      }
+      .produto-4:hover .btn4{
+        opacity: 1;
+        }
+        .camisas-4{
+            list-style: none;
+        }
+        .artcam-4{
+            position: absolute;
+            top: 0px;
+            opacity: 0;
+            transition: 2s;
+        }
+        .artcam-4:hover{
+          opacity: 1;
+        }
+
+
+        .camisas-5 img{
+            width: 330px;
+        }
+        .produto-5{
+        margin-left: 50px;
+        position: absolute; /* Adicionado para referência do botão */
+        top: 1000.6px;
+        left:370px;
+        width: 300px; /* Defina um tamanho para o produto */
+        height: 400px;
+
+    }
+    .btn5{
+        position: absolute;
+        left: 160px; 
+        top: 370px;
+        transform: translate(-50%, -50%); /* Ajusta o centro */
+       font-size: 20px;
+        padding: 11px;
+        width: 200px;
+        border: 2px solid transparent;
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+      }
+      .produto-5:hover .btn5{
+        opacity: 1;
+        }
+        .camisas-5{
+            list-style: none;
+        }
+        .artcam-5{
+            position: absolute;
+            top: 0px;
+            opacity: 0;
+            transition: 2s;
+        }
+        .artcam-5:hover{
+          opacity: 1;
+        }
+
+        .camisas-6 img{
+            width: 330px;
+        }
+        .produto-6{
+        position: absolute; /* Adicionado para referência do botão */
+        left:  30px;
+        top:  1000.6px;
+        width: 300px; /* Defina um tamanho para o produto */
+        height: 400px;
+          }
+          
+        .btn6{
+          position: absolute;
+          left: 160px; /* Centraliza horizontalmente */
+          top: 370px; /* Centraliza verticalmente */
+          transform: translate(-50%, -50%); /* Ajusta o centro */
+          font-size: 20px;
+          padding: 11px;
+          width: 200px;
+          border: 2px solid transparent;
+          opacity: 0;
+          cursor: pointer;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .camisas-6{
+            list-style: none;
+        }
+        .artcam-6{
+            position: absolute;
+            top: 0px;
+            opacity: 0;
+            transition: 2s;
+        }
+        .artcam-6:hover{
+          opacity: 1;
+        }
+        .produto-6:hover .btn6{
+        opacity: 1;
+        }
+.sobre-n{
+    margin-top: 400px;
+    position: absolute;
+    top: 1200px;
+}
+.sobre-n img{
+    width: 94.9rem;
+}
+.sobre-n h2{
+    position: absolute;
+    top: 10px;
+    left: 33rem;
+    font-size: 90px;
+    color: #000000;
+}
+.sobre-n p{
+    position: absolute;
+    top: 130px;
+    left: 31rem;
+    font-weight: 600;
+    color: #000000;
+}
+footer{
+    position: absolute;
+    top: 1904px;
+    color: #fff;
+    background-color: #000000;
+}
+footer p {
+    margin-left: 100.px;
+    width: 94.9rem;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
